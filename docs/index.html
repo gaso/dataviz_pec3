@@ -1,11 +1,42 @@
-<!doctype html>
-<html>
-  <head>
-    <title>PEC3 - Visualizacion de Datos by GASO</title>
-  </head>
-  <body>
-    <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/16247995">
-        <script src="https://public.flourish.studio/resources/embed.js"></script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualización del PIB Latinoamericano</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .flourish-embed {
+            margin: 20px 0;
+        }
+
+        .flourish-credit{
+          display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">        
+        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/16247995" data-width="70%">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
     </div>
-  </body>
+</body>
 </html>
