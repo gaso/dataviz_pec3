@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -28,7 +27,7 @@
 			"optimize_id": "GTM-P9WG4W5",
 		});
 		</script>
-	<title>Países más ricos en Latino America 1989-2022 | Flourish</title>
+	<title>Países más ricos en Latino America 1989-2022 | Gustavo Salgado</title>
 
 	<!-- Search engines -->
 	<meta name="description" content="&lt;strong&gt;Bar chart race with timeline&lt;/strong&gt;&lt;br&gt;
@@ -57,26 +56,45 @@ Use this starting point to additionally display a timeline with a line chart bel
 
 	<link rel="stylesheet" type="text/css" href="https://public.flourish.studio/resources/showcase.css">
 	<script data-ot-ignore src="https://public.flourish.studio/resources/showcase.js" charset="utf-8"></script>
-</head><body class="showcase-visualisation">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="estilos.css?v=1.0">
+</head>
+<body class="showcase-visualisation">
 	<div class="row header showcase-header">
 		<a href="https://app.flourish.studio/" class="logo clickable menu-item">
 			<img class="logo-desktop" data-target="home" src="https://public.flourish.studio/resources/images/logo.svg" alt="Flourish logo">
 			<img class="logo-mobile" data-target="home" src="https://public.flourish.studio/resources/bosh.svg" alt="Flourish logo">
 		</a>
-		<div class="project-title">
-			<h2>Realizado por <a href="https://app.flourish.studio/@gsalgadoo">Gustavo Salgado Ocampo</a> el
-				25 Dec 2023
-				</h2>
-		</div>
 
-	</div>	<div class="content">
+	</div>
+  <div class="content">
+    <div class="row showcase">
+        <div class="preview-container">            
+            <button id="show-video-btn">
+              <i class="fas fa-video"></i> Clic para reproducir Narrativa
+            </button>            
+            <div id="video-popup" class="video-popup" style="display: none;">
+              <div class="video-popup-content">
+                  <div class="video-iframe-wrapper">
+                      <iframe style="height: 40vw;" src="https://www.youtube.com/embed/astq3A0cByc?autoplay=1&enablejsapi=1&mute=0" title="Narrativa por Gustavo Salgado" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                  <span id="close-popup" class="close-popup">&times;</span>
+              </div>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+  <div class="content">
 		<div class="row showcase">
 			<div class="preview-container">
 				<div class="flourish-embed" data-src="visualisation/16247995"></div>
 			</div>
 				<div id="credits" class="credits-text">
 					<h2>Realizado con</h2>
-						<a href="https://app.flourish.studio/†8992">Bar chart race</a> de <strong>Flourish</strong> <div class="credit-detail"></div>
+						<a href="https://app.flourish.studio/†8992">Bar chart race</a> de Flourish | 
+            <a href="https://public.flourish.studio/visualisation/16247995"><strong>Ver en Pantalla Completa</strong></a>             
 				</div>
 		</div>
 	</div>	
@@ -84,5 +102,7 @@ Use this starting point to additionally display a timeline with a line chart bel
 		Flourish.initShowcaseVisualisation("https://public.flourish.studio/", 16247995, ["bar-chart-race","chart","race","change-over-time","ranks","images"], 3, "https://flo.uri.sh/visualisation/16247995/embed", );
 	</script>
 	<script data-ot-ignore src="https://public.flourish.studio/resources/embed.js"></script>
-	<script src="https://flourish.studio/js/store-inbound-fields.js" charset="utf-8"></script></body>
+	<script src="https://flourish.studio/js/store-inbound-fields.js" charset="utf-8"></script>
+  <script src="popup.js"></script>
+  </body>
 </html>
